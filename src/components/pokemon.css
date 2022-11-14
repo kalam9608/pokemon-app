@@ -1,0 +1,45 @@
+body{
+    background-color: gainsboro;
+}
+
+#name{
+
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    transition: transform 850ms;
+    padding:2px;
+}
+
+#cardbody{
+    height: 25rem;
+    background-color: black;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+#name:hover{
+    color: lightseagreen;
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+
+img{
+
+    transition: transform 850ms;
+    padding:2px;
+  }
+  img:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+
+
+  a{
+    text-decoration:none;
+
+  }
+  
